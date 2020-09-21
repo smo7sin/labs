@@ -1,12 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace permutation
+Solution s = new();
+
+var ans = s.Permute(new[] {1, 2, 3});
+
+foreach (var item in ans)
 {
-    class Program
+    foreach (var i in item)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        Console.Write(i + " ");
     }
+    Console.WriteLine();
 }
+
+
+
