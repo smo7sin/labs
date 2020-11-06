@@ -10,4 +10,9 @@
     <Compile Include="Program.fs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FSharp.Control.AsyncSeq" Version="3.0.2" />
+    <PackageReference Include="FSharp.Control.Reactive" Version="4.4.2" />
+  </ItemGroup>
+
 </Project>
