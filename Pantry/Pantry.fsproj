@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Giraffe" Version="4.1.*" />
+    <PackageReference Include="Giraffe" Version="5.0.0-alpha-003" />
     <PackageReference Include="TaskBuilder.fs" Version="2.1.*" />
   </ItemGroup>
 
